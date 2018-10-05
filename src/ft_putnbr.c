@@ -6,13 +6,13 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/19 17:44:41 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/04 05:40:08 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:10:17 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define MY_LONG_MIN -9223372036854775807
+#include "ft.h"
 
-int		ft_putchar(char c);
+#define MY_LONG_MIN -9223372036854775807
 
 void	ft_putnbr(long nb)
 {

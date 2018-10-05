@@ -6,11 +6,10 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/01 21:56:33 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/04 06:41:17 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:16:10 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "eval.h"
 #include "word.h"
 #include "tree.h"

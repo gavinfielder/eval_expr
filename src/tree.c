@@ -6,14 +6,13 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/02 12:52:49 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/05 03:02:43 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:19:20 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "word.h"
 #include "tree.h"
-#include "debug.h"
 
 t_word	*build_tree(t_word *current)
 {
@@ -39,8 +38,6 @@ t_word	*break_at(t_word *word)
 	word->next = 0;
 	return (word);
 }
-
-
 
 t_word	*get_breakpoint(t_word *cur)
 {

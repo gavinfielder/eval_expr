@@ -6,13 +6,13 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/05 02:51:29 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/05 03:04:00 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:08:39 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "word.h"
 
-int	trim_encompassing_brackets(t_word *current, t_word **safe,
+int		trim_encompassing_brackets(t_word *current, t_word **safe,
 		int bracket, int brackets_found)
 {
 	*safe = 0;
@@ -21,6 +21,8 @@ int	trim_encompassing_brackets(t_word *current, t_word **safe,
 	{
 		if (!(current->type & BRACKET))
 			*safe = current;
+		if (!(current->next))
+			break ;
 		current = current->next;
 	}
 	current = get_head(current);

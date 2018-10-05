@@ -6,7 +6,7 @@
 /*   By: alamit <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/26 15:29:49 by alamit            #+#    #+#             */
-/*   Updated: 2018/10/05 03:36:45 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:06:16 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ bool	test42f_int_eq(char *title, long nb, long expected)
 				expected);
 		res = FALSE;
 	}
-	printf("%s%s \n", KNRM, title);
+	printf("%s\"%s\" %s= %li\n", KNRM, title, KGRN, expected);
 	printf("%s", trace);
 	if (!res)
 		free(trace);

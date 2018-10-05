@@ -6,7 +6,7 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/01 20:40:02 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/04 06:39:09 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:10:53 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ typedef struct			s_word
 t_word					*build_word_list(char *str, t_word *prev);
 unsigned short			detect_type(char c);
 void					remove_word_from_list(t_word *word);
+void					build_word_list_helper(char *str, t_word *word);
 
 /*
 ** Defined in list_info.c

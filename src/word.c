@@ -6,15 +6,13 @@
 /*   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/01 20:39:59 by gfielder          #+#    #+#             */
-/*   Updated: 2018/10/04 06:45:40 by gfielder         ###   ########.fr       */
+/*   Updated: 2018/10/05 06:11:08 by gfielder         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "word.h"
 #include "ft.h"
-
-void			build_word_list_helper(char *str, t_word *word);
 
 unsigned short	detect_type(char c)
 {
